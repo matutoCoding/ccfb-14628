@@ -1,0 +1,16 @@
+{
+  "name": "ok-lens-fitting",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "OK lens (orthokeratology) fitting prediction system, browser-local",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "validate": "node validate.ts",
+    "serve": "node serve.mjs"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}
